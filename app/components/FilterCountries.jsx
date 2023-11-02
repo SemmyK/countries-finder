@@ -10,7 +10,7 @@ const options = [
 
 function FilterCountries({ selectedOption, setSelectedOption }) {
 	return (
-		<div className=' w-2/3 sm:w-1/2 md:w-1/3 lg:w-1/4 bg-white shadow-lg dark:bg-dark-blue box-border z-10'>
+		<div className=' w-2/3 sm:w-1/2 md:w-1/3 lg:w-1/6 bg-white shadow-lg dark:bg-dark-blue box-border z-10'>
 			<Select
 				placeholder='Filter by Region'
 				value={selectedOption}
