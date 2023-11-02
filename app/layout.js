@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 			suppressHydrationWarning
 		>
 			<body
-				className={`${nunito.className} min-h-screen min-w-screen bg-light-gray dark:bg-very-dark-blue-bg text-very-dark-blue-text dark:text-white`}
+				className={`${nunito.className} min-h-screen min-w-screen h-96 bg-light-gray dark:bg-very-dark-blue-bg text-very-dark-blue-text dark:text-white`}
 			>
 				<ModeProvider>
 					<header className='bg-white shadow-lg dark:bg-dark-blue p-4'>

@@ -5,7 +5,7 @@ import world from '../public/world.png'
 
 export default function NotFound() {
 	return (
-		<div className='flex flex-column flex-wrap justify-center items-center text-center'>
+		<div className='flex flex-column flex-wrap justify-center items-center text-center  h-5/6 min-w-screen'>
 			<h2 className=' mt-10 w-full text-4xl text-mid-brown font-bold'>
 				Not found!
 			</h2>
@@ -21,10 +21,10 @@ export default function NotFound() {
 					className='block w-fit mx-auto'
 				/>
 			</div>
-			<div className='w-full'>
+			<div className='w-full mx-auto'>
 				<Link
 					href='/'
-					className='shadow-xl drop-shadow-xl  w-fit py-2 px-6 text-center block bg-white  dark:bg-dark-blue'
+					className='shadow-xl drop-shadow-xl mx-auto  w-fit py-2 px-6 text-center block bg-white  dark:bg-dark-blue'
 				>
 					<button className='font-bold text-center'>Back to Homepage</button>
 				</Link>

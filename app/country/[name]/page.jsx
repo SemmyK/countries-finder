@@ -61,7 +61,7 @@ async function SingleCountry({ params }) {
 			<article className='min-h-screen min-w-screen bg-light-gray dark:bg-very-dark-blue-bg text-very-dark-blue-text dark:text-white p-10 text-base'>
 				<Button />
 				<section className='mt-10 md:mt-20 w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-4 gap-10  xl:gap-20 content-start shadow-3xl m-0 rounded-sm '>
-					<div className='w-full box-border md:col-span-2 lg:col-span-3 xl:col-span-2'>
+					<div className='w-full box-border md:col-span-2 lg:col-span-3 xl:col-span-2 '>
 						<Image
 							src={singleCountry.flags.svg || singleCountry.flags.png}
 							alt={
@@ -74,7 +74,7 @@ async function SingleCountry({ params }) {
 							blurDataURL={mountain}
 							width={300}
 							height={150}
-							className='block w-full  shadow-xl'
+							className='block w-full  shadow-xl shadow-slate-700'
 						/>
 					</div>
 					<div className='m-0 p-0 md:col-span-1 lg:col-span-2  xl:col-span-2 md:grid grid-cols-1 md:gap-x-10 md:gap-y-0'>
