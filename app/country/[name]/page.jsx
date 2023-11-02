@@ -67,6 +67,7 @@ async function SingleCountry({ params }) {
 									? singleCountry.flags.alt
 									: singleCountry.commonName
 							}
+							priority
 							width={300}
 							height={150}
 							className='block w-full  shadow-xl'
