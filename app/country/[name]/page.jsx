@@ -5,6 +5,8 @@ import fetchCountries, { fetchCountryByName } from '@/app/lib/getCountries'
 
 import Button from '@/app/components/Button'
 
+import mountain from '../../../public/mountains.avif'
+
 export async function generateStaticParams() {
 	const countries = await fetchCountries()
 
@@ -68,6 +70,8 @@ async function SingleCountry({ params }) {
 									: singleCountry.commonName
 							}
 							priority
+							placeholder='blur'
+							blurDataURL={mountain}
 							width={300}
 							height={150}
 							className='block w-full  shadow-xl'
