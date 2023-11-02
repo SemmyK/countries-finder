@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - REST Countries API with color theme switcher solution
 
-## Getting Started
+## Table of contents
 
-First, run the development server:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### The challenge
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Users should be able to:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- See all countries from the API on the homepage
+- Search for a country using an `input` field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
+- Toggle the color scheme between light and dark mode _(optional)_
 
-## Learn More
+### Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+![](./public/design//desktop-preview.jpg)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Solution URL: [Vercel deployed Project](https://your-solution-url.com)
+- Live Site URL: [Docker hub image of the project](https://your-live-site-url.com)
 
-## Deploy on Vercel
+## My process
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Built with
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Mobile first workflow
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
+- [react-tailwindcss-select](https://www.npmjs.com/package/react-tailwindcss-select) - For filtering countries by region
+
+### What I learned
+
+This project was great challenge to practice Next.js and TailwindCSS to build up the website.
+I learn a little bit more about Images in Next.js and all the style possibilites with Tailwind.
+
+### Continued development
+
+I am planing to use this project to practice Jest and Docker also, since I started to learn testing and handling containers I believe this project will be perfect for practice.
+
+### Useful resources
+
+- My primary resources are always documentations websites, if that doesn't help then I turn to Google, YouTube, Stackoverflow or ChatGPT.
+
+### Useful resources
+
+- [Tailwind dark/light mode](https://www.youtube.com/watch?v=RTAJ-enfums) - This helped me to resolve hydratation issue that adding dark/light theme with package next-themes [npm next-theme](https://www.npmjs.com/package/next-themes) was causing. I really liked this pattern and will use it going forward.
+
+## Author
+
+- Portfolio - [Portfolio](https://portfolio2023-git-master-semmyk.vercel.app/)
+- Frontend Mentor - [@Semmy](https://www.frontendmentor.io/profile/JSdevS-coder)
+- LinkedIn - [@semira](https://www.linkedin.com/in/semira-kubat-81724720a/)
+
+## Acknowledgments
+
+Big thank you to Hamed Bahram - [YouTube channel](https://www.youtube.com/@hamedbahram) for his Next.js 13 tutorials are just a gem in a sea of stones.
