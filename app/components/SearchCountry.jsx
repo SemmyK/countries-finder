@@ -1,6 +1,6 @@
 function SearchCountry({ inputState, setInputState }) {
 	return (
-		<div className='relative flex mb-5 sm:mb-0 w-2/3 sm:w-1/2 md:w-1/3 lg:w-1/4 '>
+		<div className='relative flex mb-5 sm:mb-0 w-11/12 sm:w-1/2 md:w-1/3 lg:w-1/4 '>
 			<div className='absolute inset-y-0 right-4 flex items-center pl-3'>
 				<svg
 					className='w-4 h-4 text-gray-500 dark:text-gray-400'
