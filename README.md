@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Vercel deployed Project](https://your-solution-url.com)
-- Live Site URL: [Docker hub image of the project](https://your-live-site-url.com)
+- Docker image: [Docker hub image of the project](https://your-live-site-url.com)
 
 ## My process
 
